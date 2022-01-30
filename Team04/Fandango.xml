@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Fandango.css"?>
+<!DOCTYPE Fandango SYSTEM "Fandango.dtd">
+<Fandango>
+    <title> FANDANGO </title>
+    <dateView> Selected Date &#58; JAN 30TH </dateView>
+    <TheaterName> REGAL GREECE RIDGE </TheaterName>
+
+        <Movie id="1">
+       <photo xmlns="http://www.w3.org/1999/xhtml">
+            <img src="./images/candyman.jpeg" width="200" height="180"/>
+        </photo>
+        <movieName> CANDYMAN &#40;2021&#41; </movieName>
+        <show> 2&#58;00 PM </show>
+        <show> 6&#58;00 PM </show>
+        <show> 9&#58;30 PM </show>
+        </Movie>
+
+        <Movie id="2">
+       <photo xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/dontbreathe.jpeg" width="200" height="180"/>
+                </photo>
+        <movieName> DON'T BREATHE 2 &#40;2021&#41; </movieName>
+        <show> 12&#58;00 PM </show>
+        <show> 4&#58;30 PM </show>
+        <show> 10&#58;30 PM </show>
+        </Movie>
+        <Movie id="3">
+        <photo xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/junglecruise.jpeg" width="200" height="180"/>
+                </photo>
+        <movieName> JUNGLE CRUISE &#40;2021&#41; </movieName>
+        <show> 12&#58;00 PM </show>
+        <show> 3&#58;20 PM </show>
+        <show> 6&#58;50 PM </show>
+        </Movie>
+        
+    <TheaterName> REGAL EASTVIEW MALL </TheaterName>
+        <Movie id="4">
+        <photo xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/freeguy.jpeg" width="200" height="180"/>
+                </photo>
+        <movieName> FREE GUY &#40;2021&#41; </movieName>
+        <show> 11&#58;00 PM </show>
+        <show> 1&#58;00 PM </show>
+        <show> 7&#58;10 PM </show>
+        <show> 9&#58;00 PM </show>
+        </Movie>
+        <Movie id="5">
+        <photo xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/respect.jpeg" width="200" height="180"/>
+                </photo>
+        <movieName> RESPECT &#40;2021&#41; </movieName>
+        <show> 12&#58;00 PM </show>
+        <show> 4&#58;30 PM </show>
+        </Movie>
+        <Movie id="6">
+        <photo xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/shangchi.jpeg" width="200" height="180"/>
+                </photo>
+        <movieName> SHANG-CHI AND THE LEGEND OF THE TEN RINGS &#40;2021&#41; </movieName>
+        <show> 12&#58;00 PM </show>
+        <show> 3&#58;20 PM </show>
+        <show> 6&#58;50 PM </show>
+        </Movie>
+</Fandango>

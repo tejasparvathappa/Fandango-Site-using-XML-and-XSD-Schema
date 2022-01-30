@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Fandango (title,dateView,(Movie|TheaterName)+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT dateView (#PCDATA)>
+<!ELEMENT TheaterName (#PCDATA)>
+<!ATTLIST Movie id CDATA #REQUIRED>
+<!ELEMENT Movie (photo,movieName,show+)>
+<!ELEMENT photo (img)>
+<!ELEMENT img (#PCDATA)>
+<!ATTLIST photo xmlns CDATA #REQUIRED>
+<!ATTLIST img src CDATA #REQUIRED>
+<!ATTLIST img height CDATA #REQUIRED>
+<!ATTLIST img width CDATA #REQUIRED>
+<!ELEMENT movieName (#PCDATA)>
+<!ELEMENT show (#PCDATA)>
